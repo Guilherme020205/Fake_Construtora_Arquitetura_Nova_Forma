@@ -3,7 +3,7 @@ import Header from "../../components/header";
 import IntroSection from "../../sections/IntroSection";
 import AboutSection from "./../../sections/AboutSection/index";
 import ServicesSection from "../../sections/ServicesSection";
-
+import DifferentialsSection from "../../sections/DifferentialsSection";
 export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-between">
@@ -12,6 +12,7 @@ export default function Home() {
         <IntroSection />
         <AboutSection />
         <ServicesSection />
+        <DifferentialsSection />
       </div>
       <Footer />
     </div>
