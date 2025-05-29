@@ -5,6 +5,7 @@ import AboutSection from "./../../sections/AboutSection/index";
 import ServicesSection from "../../sections/ServicesSection";
 import DifferentialsSection from "../../sections/DifferentialsSection";
 import TestimonialsSection from "../../sections/TestimonialsSection";
+import ContactSection from './../../sections/ContactSection/index';
 export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-between">
@@ -15,6 +16,7 @@ export default function Home() {
         <ServicesSection />
         <DifferentialsSection />
         <TestimonialsSection />
+        <ContactSection/>
       </div>
       <Footer />
     </div>
