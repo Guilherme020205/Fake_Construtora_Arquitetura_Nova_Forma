@@ -1,6 +1,5 @@
 import { IoHome } from "react-icons/io5";
 import { RiUserCommunityFill } from "react-icons/ri";
-
 export default function Header() {
   const handleScroll = (id: string) => {
     const section = document.getElementById(id);
@@ -15,7 +14,7 @@ export default function Header() {
           <IoHome className="text-3xl"  />
         </button>
         <div className="flex flex-col items-center text-white font-bold">
-          <p className="text-xl">Construtora & Arquitetura Nova Forma</p>
+          <p className="text-xl">Construtora & Arquitetura</p>
           <p className="text-xl">Nova Forma</p>
         </div>
         <button onClick={() => handleScroll('ContactSection')} className="hover:bg-wattle-50 rounded-full p-3 transition-all duration-1000">
