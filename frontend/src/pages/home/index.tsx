@@ -11,7 +11,8 @@ export default function Home() {
     <div className="flex flex-col h-screen justify-between">
         <p id="Header"></p>
       <Header />
-      <div className="mx-28 my-20 mt-40 flex flex-col">
+      <div className="mx-28 my-20 mt-40 flex flex-col opacity-0 animate-fadeIn delay-500" id="about"
+      >
         <IntroSection />
         <AboutSection />
         <ServicesSection />
