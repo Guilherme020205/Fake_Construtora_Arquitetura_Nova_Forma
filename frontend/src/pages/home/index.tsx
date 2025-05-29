@@ -9,13 +9,15 @@ import ContactSection from './../../sections/ContactSection/index';
 export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-between">
+        <p id="Header"></p>
       <Header />
-      <div className="mx-28 my-20 flex flex-col">
+      <div className="mx-28 my-20 mt-40 flex flex-col">
         <IntroSection />
         <AboutSection />
         <ServicesSection />
         <DifferentialsSection />
         <TestimonialsSection />
+        <p id="ContactSection"></p>
         <ContactSection/>
       </div>
       <Footer />
