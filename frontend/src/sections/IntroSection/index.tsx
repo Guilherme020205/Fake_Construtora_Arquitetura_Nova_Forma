@@ -14,7 +14,7 @@ export default function IntroSection() {
       >
         <div className="bg-black bg-opacity-50 rounded-[80px] flex flex-col justify-center items-center gap-20 h-full ">
           <section className="group flex flex-col items-center">
-            <h1 className="text-white font-black text-2xl group-hover:underline duration-300 transition">
+            <h1 className="text-white font-black text-2xl group-hover:underline group-hover:text-3xl duration-1000 transition-all">
               Construtora & Arquitetura Nova Forma
             </h1>
             <h3 className="text-white text-xl">
